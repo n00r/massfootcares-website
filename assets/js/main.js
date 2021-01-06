@@ -207,9 +207,9 @@
       for(var i=0;i<172;i++ ){
       $('#isProduct').append(
         '<div class="col-lg-3 col-md-3 col-xs-6 col-sm-6  portfolio-item filter-male  product-ms2"> \
-          <a href="assets/img/Product/finarbg/00'+ parseInt(i+1)  +'.png" data-gall="portfolioGallery" class="venobox details-link product-ms3" title="Product '+ parseInt(i+1)+'"> \
+          <a href="assets/img/Product/bg-webp/00'+ parseInt(i+1)  +'.webp" data-gall="portfolioGallery" class="venobox details-link product-ms3" title="Product '+ parseInt(i+1)+'"> \
             <div class="product-ms1 product-ms4 "> \
-              <img src="assets/img/Product/finarbg/00'+ parseInt(i+1) +'.png" class="" alt="" loading="lazy" width="250" height="300"> \
+              <img src="assets/img/Product/bg-webp/00'+ parseInt(i+1) +'.webp" class="" alt="" loading="lazy" width="250" height="300"> \
           </div>\
                 <div class="portfolio-info"> \
                     <h4>Product '+parseInt(i+1)+'</h4> \
