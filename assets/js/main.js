@@ -40,7 +40,7 @@
 
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('bx bx-menu icofont-close');
+          $('.mobile-nav-toggle i').toggleClass('bx bx-menu bx bx-x');
           $('.mobile-nav-overly').fadeOut();
         }
         return false;
@@ -72,7 +72,7 @@
 
     $(document).on('click', '.mobile-nav-toggle', function(e) {
       $('body').toggleClass('mobile-nav-active');
-      $('.mobile-nav-toggle i').toggleClass('bx bx-menu icofont-close');
+      $('.mobile-nav-toggle i').toggleClass('bx bx-menu bx bx-x');
       $('.mobile-nav-overly').toggle();
     });
 
@@ -87,7 +87,7 @@
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('bx bx-menu icofont-close');
+          $('.mobile-nav-toggle i').toggleClass('bx bx-menu bx bx-x');
           $('.mobile-nav-overly').fadeOut();
         }
       }
