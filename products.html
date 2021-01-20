@@ -23,7 +23,7 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min1.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@
 
     </section><!-- End Hero -->
     <main id="main">
-        <section id="products" class="portfolio" style="padding:25px 0">
+        <section id="products" class="portfolio" style="padding:25px 0;background: #f6f6f6;">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -184,5 +184,11 @@
 
     gtag('config', 'G-5GX27T4R5L');
 </script>
-
+<script>
+    $(document).ready(function() {
+        $('html, body').animate({
+         scrollTop: 0
+         }, 100, 'easeInOutExpo');
+    });
+</script>
 </html>
